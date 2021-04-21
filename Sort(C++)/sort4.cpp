@@ -27,5 +27,6 @@ int main()
     sort(arr, arr + n);
     cout << "Sorted array is \n";
     printArray(arr, n);
+    delete[] arr;
     system("pause");
 }
